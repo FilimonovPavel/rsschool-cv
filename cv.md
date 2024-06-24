@@ -56,9 +56,9 @@ function multiply(a, b) {
 Preparation of reports for your accounting areas.
 
 ### Education:
-| Russian State Agrarian University – Moscow Timiryazev Agricultural Academy |
-|:-----:|
-|![РГАУ-МСХА](https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/154px-%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png "РГАУ-МСХА")|
+Russian State Agrarian University – Moscow Timiryazev Agricultural Academy  
+
+![РГАУ-МСХА](https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/154px-%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png "РГАУ-МСХА")
 
 > *“Only science and democracy, knowledge and labor, having entered into a free close union, will overcome everything, will recreate everything for the benefit of all mankind,”* **K.A. Timiryazev**
 
