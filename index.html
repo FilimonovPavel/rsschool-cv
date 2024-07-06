@@ -1,130 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css//style.css">
-	<title>CV Filimonov Pavel</title>
-</head>
-<body>
-	<header class="header">
-		<nav class="menu">
-			<ul>
-				<li>Contacts</li>
-				<li>Summary</li>
-				<li>Skills</li>
-				<li>Code</li>
-				<li>Experience</li>
-				<li>Courses</li>
-				<li>Education</li>
-				<li>Languages</li>
-			</ul>
-		</nav>
-		<img src="https://lh3.googleusercontent.com/a/ACg8ocLZnjwhCwVf79qU2Z4F8k783gFAT1z4kri_hcsmJu_7cPkv9vB9=s288-c-no" alt="Avatar">
-		<h1>Pavel Filimonov</h1>
-		<span>Middle Frontend Developer</span>
-	</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css//style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+   >
+    <title>cv</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a href="#contacts" class="nav-list__link">Contacts</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#summary" class="nav-list__link">Summary</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#skills" class="nav-list__link">Skills</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#code" class="nav-list__link">Code</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#experience" class="nav-list__link">Experience</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#courses" class="nav-list__link">Courses</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#education" class="nav-list__link">Education</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#languages" class="nav-list__link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container container_row">
+        <img class="avatar" src="./assets/img/avatar.jpg" alt="my photo">
+        <div class="container container_column">
+          <h1 class="header1">Pavel Filimonov</h1>
+          <span class="major">Middle Frontend Developer</span>
+        </div>
+      </div>
+    </header>
 
-	<main class="page">
-		<section class="section">
-			<h2 class="header section__header">Contacts</h2>
-			<ul>
-				<li>Moscow, Russia</li>
-				<li itemscope itemtype="http://schema.org/Organization"><span>Phone:</span> <a href="tel:+79262723897" itemprop="telephone">+7 (926) 272-38-97</a></li>
-				<li>Email: <a href="mailto:pavelfilimonov@gmail.com">pavelfilimonov@gmail.com</a></li>
-				<li>Telegram: <a href="https://t.me/F1evel">@F1evel</a></li>
-				<li>Discord: <a href="https://discord.gg/3rUfeEcm">pavelswift</a></li>
-			</ul>
-		</section>
+    <main class="page">
+      <section id="contacts" class="section">
+        <h2 class="header2 section__header2">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-list__item">Moscow, Russia</li>
+          <li
+            class="contacts-list__item"
+            itemscope
+            itemtype="http://schema.org/Organization"
+          >
+            <span>Phone:</span>
+            <a
+              class="contacts-list__link"
+              href="tel:+79262723897"
+              itemprop="telephone"
+              >+7 (926) 272-38-97</a
+            >
+          </li>
+          <li class="contacts-list__item">
+            Email:
+            <a
+              class="contacts-list__link"
+              href="mailto:pavelfilimonov@gmail.com"
+              >pavelfilimonov@gmail.com</a
+            >
+          </li>
+          <li class="contacts-list__item">
+            Telegram:
+            <a class="contacts-list__link" href="https://t.me/F1evel"
+              >@F1evel</a
+            >
+          </li>
+          <li class="contacts-list__item">
+            Discord:
+            <a class="contacts-list__link" href="https://discord.gg/3rUfeEcm"
+              >pavelswift</a
+            >
+          </li>
+        </ul>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Summary</h2>
-			<p>
-				I am a hardworking and motivated front-end developer who has acquired extensive knowledge in this field through self-education, previous work experience in
-				accounting and interaction with people in the field.
-			</p>
-			<p>
-				I believe, that my motivation to learn, improve my life and to gain new skills will lead me on the path to becoming an experienced and in-demand Frontend Developer.
-			</p>
-		</section>
+      <section id="summary" class="section">
+        <h2 class="header2 section__header2">Summary</h2>
+        <p class="paragraph">
+          I am a hardworking and motivated front-end developer who has acquired
+          extensive knowledge in this field through self-education, previous
+          work experience in accounting and interaction with people in the
+          field.
+        </p>
+        <p class="paragraph">
+          I believe, that my motivation to learn, improve my life and to gain
+          new skills will lead me on the path to becoming an experienced and
+          in-demand Frontend Developer.
+        </p>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Skills</h2>
-			<ul>
-				<li>Front-end Web Technologies: HTML5, CSS3, SCSS</li>
-				<li>Programming languages: JavaScript, TypeScript</li>
-				<li>Libraries: React, Redux, Redux Toolkit</li>
-				<li>Web Development Tools: Webpack, Next.js, Figma, npm</li>
-				<li>Web API Technologies: Rest API, GraphQL</li>
-				<li>Version Control Systems: Git, GitHub, GitLab</li>
-			</ul>
-		</section>
+      <section id="skills" class="section">
+        <h2 class="header2 section__header2">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-list__item">
+            Front-end Web Technologies: HTML5, CSS3, SCSS
+          </li>
+          <li class="skills-list__item">
+            Programming languages: JavaScript, TypeScript
+          </li>
+          <li class="skills-list__item">
+            Libraries: React, Redux, Redux Toolkit
+          </li>
+          <li class="skills-list__item">
+            Web Development Tools: Webpack, Next.js, Figma, npm
+          </li>
+          <li class="skills-list__item">
+            Web API Technologies: Rest API, GraphQL
+          </li>
+          <li class="skills-list__item">
+            Version Control Systems: Git, GitHub, GitLab
+          </li>
+        </ul>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Code</h2>
-				<pre><code>
+      <section id="code" class="section">
+        <h2 class="header2 section__header2">Code</h2>
+        <pre><code class="code">
 function multiply(a, b) {
-	return a * b;
+  return a * b;
 }
 				</code></pre>
-		</section>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Experience</h2>
-			<ul>
-				<li>
-					<h3>Frontend Developer, 2021 - Present</h3>
-					<h4>Build experts group</h4>
-					<ul>
-						<li>Development of UI for establishing construction projects, their economic and technical indicators, analysis of input and output data.</li>
-						<li>Development of reusable components for the entire group of companies, their improvement and optimization.</li>
-						<li>Conducting cross reviews, deploying tasks to release.</li>
-					</ul>
-				</li>
-				<li>
-					<h3>Lead Accountant, 2010 - 2021</h3>
-					<h4>Various companies</h4>
-					<ul>
-						<li>Distribution of tasks among subordinates, control of deadlines and results of their implementation.</li>
-						<li>Maintaining records of enterprise operations for materials, finished products and services.</li>
-						<li>Conducting reconciliations with suppliers and customers.</li>
-						<li>Preparation of reports for your accounting areas.</li>
-					</ul>
-				</li>
-			</ul>
-		</section>
+      <section id="experience" class="section">
+        <h2 class="header2 section__header2">Experience</h2>
+        <ul class="experience-list">
+          <li class="experience-list__item">
+            <h3 class="header3">Frontend Developer, 2021 - Present</h3>
+            <h4 class="header4">Build experts group</h4>
+            <ul class="experience-sublist">
+              <li class="experience-sublist__item">
+                Development of UI for establishing construction projects, their
+                economic and technical indicators, analysis of input and output
+                data.
+              </li>
+              <li class="experience-sublist__item">
+                Development of reusable components for the entire group of
+                companies, their improvement and optimization.
+              </li>
+              <li class="experience-sublist__item">
+                Conducting cross reviews, deploying tasks to release.
+              </li>
+            </ul>
+          </li>
+          <li class="experience-list__item">
+            <h3 class="header3">Lead Accountant, 2010 - 2021</h3>
+            <h4 class="header4">Various companies</h4>
+            <ul class="experience-sublist">
+              <li class="experience-sublist__item">
+                Distribution of tasks among subordinates, control of deadlines
+                and results of their implementation.
+              </li>
+              <li class="experience-sublist__item">
+                Maintaining records of enterprise operations for materials,
+                finished products and services.
+              </li>
+              <li class="experience-sublist__item">
+                Conducting reconciliations with suppliers and customers.
+              </li>
+              <li class="experience-sublist__item">
+                Preparation of reports for your accounting areas.
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Courses</h2>
-			<ul>
-				<li>W3schools: <a href="https://www.w3schools.com/">HTML, CSS, JavaScript</a></li>
-				<li>MDN: <a href="https://developer.mozilla.org/en-US/">HTML, CSS, JavaScript</a></li>
-				<li>Yandex practicum: <a href="https://practicum.yandex.ru/">frontend-developer</a></li>
-			</ul>
-		</section>
+      <section id="education" class="section">
+        <h2 class="header2 section__header2">Education</h2>
+        <img
+          class="education__logo"
+          src="https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/154px-%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png"
+          alt="РГАУ-МСХА"
+       >
+        <p class="education__paragraph">
+          Russian State Agrarian University – Moscow Timiryazev Agricultural
+          Academy
+        </p>
+        <blockquote class="education__blockquote" cite="http://example.com">
+          “Only science and democracy, knowledge and labor, having entered into
+          a free close union, will overcome everything, will recreate everything
+          for the benefit of all mankind,”
+          <cite class="education__cite">K.A. Timiryazev</cite>
+        </blockquote>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Education</h2>
-			<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/6/68/%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/154px-%D0%A0%D0%93%D0%90%D0%A3-%D0%9C%D0%A1%D0%A5%D0%90_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png" alt="РГАУ-МСХА">
-			<p>Russian State Agrarian University – Moscow Timiryazev Agricultural Academy</p>
-			<blockquote cite="http://example.com">
-				“Only science and democracy, knowledge and labor, having entered into a free close union, will overcome everything, will recreate everything for the benefit of all mankind,” <cite>K.A. Timiryazev</cite>
-			</blockquote>
-		</section>
+      <section id="courses" class="section">
+        <h2 class="header2 section__header2">Courses</h2>
+        <ul class="courses-list">
+          <li class="courses-list__item">
+            W3schools:
+            <a
+              class="courses-list__link"
+              href="https://www.w3schools.com/"
+              target="_blank"
+              >HTML, CSS, JavaScript</a
+            >
+          </li>
+          <li class="courses-list__item">
+            MDN:
+            <a
+              class="courses-list__link"
+              href="https://developer.mozilla.org/en-US/"
+              target="_blank"
+              >HTML, CSS, JavaScript</a
+            >
+          </li>
+          <li class="courses-list__item">
+            Yandex practicum:
+            <a
+              class="courses-list__link"
+              href="https://practicum.yandex.ru/"
+              target="_blank"
+              >frontend-developer</a
+            >
+          </li>
+        </ul>
+      </section>
 
-		<section class="section">
-			<h2 class="header section__header">Languages</h2>
-			<ul>
-				<li>Russian: native</li>
-				<li>English: intermediate/upper-intermediate</li>
-			</ul>
-		</section>
-	</main>
+      <section id="languages" class="section">
+        <h2 class="header2 section__header2">Languages</h2>
+        <ul class="languages-list">
+          <li class="languages-list__item">Russian: native</li>
+          <li class="languages-list__item">
+            English: intermediate/upper-intermediate
+          </li>
+        </ul>
+      </section>
+    </main>
 
-	<footer class="footer">
-		<div>&copy; 2024</div>
-		<div><a href="https://github.com/FilimonovPavel">FilimonovPavel</a></div>
-		<a href="https://rs.school/courses/javascript-ru"><img src="https://rs.school/assets/RsBanner-DN9JLJVH.svg" alt="RS School logo"></a>
-	</footer>
-</body>
+    <footer class="footer">
+      <div>&copy; 2024</div>
+      <div class="container">
+        <img
+          class="github-logo"
+          src="/assets/icons/github.svg"
+          alt="RS School logo"
+       >
+        <a class="git-link" href="https://github.com/FilimonovPavel"
+          >FilimonovPavel</a
+        >
+      </div>
+      <a
+        class="rss-link"
+        href="https://rs.school/courses/javascript-ru"
+        target="_blank"
+        ><img
+          class="rss-logo"
+          src="https://rs.school/assets/RsBanner-DN9JLJVH.svg"
+          alt="RS School logo"
+     ></a>
+    </footer>
+  </body>
 </html>
