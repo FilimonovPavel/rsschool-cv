@@ -223,7 +223,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/location.svg");
+  background-image: url("assets/icons/location.svg");
 }
 
 .contacts-list__item:nth-child(2)::before {
@@ -234,7 +234,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/phone.svg");
+  background-image: url("assets/icons/phone.svg");
 }
 
 .contacts-list__item:nth-child(3)::before {
@@ -245,7 +245,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/email.svg");
+  background-image: url("assets/icons/email.svg");
 }
 
 .contacts-list__item:nth-child(4)::before {
@@ -256,7 +256,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/telegram.svg");
+  background-image: url("assets/icons/telegram.svg");
 }
 
 .contacts-list__item:nth-child(5)::before {
@@ -267,7 +267,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/discord.svg");
+  background-image: url("assets/icons/discord.svg");
 }
 
 .contacts-list__link {
@@ -299,7 +299,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/chec-mark.svg");
+  background-image: url("assets/icons/chec-mark.svg");
 }
 
 .code {
@@ -326,7 +326,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/heart.svg");
+  background-image: url("assets/icons/heart.svg");
 }
 
 .experience-sublist {
@@ -348,7 +348,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/gear.svg");
+  background-image: url("assets/icons/gear.svg");
 }
 
 .education__logo {
@@ -389,7 +389,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/w3schools.png");
+  background-image: url("assets/icons/w3schools.png");
 }
 
 .courses-list__item:nth-child(2):before {
@@ -400,7 +400,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/mdn.svg");
+  background-image: url("assets/icons/mdn.svg");
 }
 
 .courses-list__item:nth-child(3):before {
@@ -411,7 +411,7 @@ body {
   height: 24px;
   background-size: 24px 24px;
   background-repeat: no-repeat;
-  background-image: url("/assets/icons/yandex-practicum.svg");
+  background-image: url("assets/icons/yandex-practicum.svg");
 }
 
 .courses-list__link {
